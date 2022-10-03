@@ -3,7 +3,7 @@ import { readCSV, writeJSON } from "./utils.js";
 
 const calculateRootAndProof = (transactions) => {
   const txs = transactions.split(",");
-  const middleLeafIndex = Math.floor(transactions.length / 2);
+  const middleLeafIndex = Math.floor(txs.length / 2);
 
   const merkleRoot = computeMerkleRoot(txs);
   const middleLeafMerkleProof = computeMerkleProof(txs, middleLeafIndex);
