@@ -12,7 +12,7 @@ For a given list of transactions, compute the merkle root for them.
 
 #### computeMerkleProof
 
-For a given list of transactions and leaf index, compute the merkle proof for the leaf. Refer to middleLeadMerkleProof column of the first three rows of data.csv for the output format.
+For a given list of transactions and leaf index, compute the merkle proof for the leaf. Refer to the **middleLeadMerkleProof** column of the first three rows of [data.csv](data.csv) for the output format.
 
 ### Instructions
 
