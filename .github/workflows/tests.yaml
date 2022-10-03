@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: install deps
         working-directory: .github/workflows/js-tests
-        run: npm test
+        run: npm run install
       - name: run tests
         working-directory: .github/workflows/js-tests
         run: npm test
