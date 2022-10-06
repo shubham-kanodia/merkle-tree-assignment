@@ -82,7 +82,11 @@ const b = sha256("b");
 hashPair(a, b).toString("hex");
 ```
 
-**merkleProof for the middle leaf:** `[{ "left": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb" }]`
+**merkleProof for the middle leaf:**
+
+```json
+[{ "left": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb" }]
+```
 
 Explanation: In this case, the middle leaf is at index `1`. To generate the merkle proof, we need to provide the **hash of the transaction a** so that the pair of hashes can be used to compute and verify the merkle proof. The "left" key indicates that the transaction `a` occcured before transaction `b` and hence the hash should be calculated as `hashPair(a + b)` and not `hashPair(b + a)`.
 
