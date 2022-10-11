@@ -108,11 +108,11 @@ Explanation: In this case, the middle leaf is at index `1`. To generate the merk
 
    1. Save the updated file
 
-1. Our automated tests will test you if the roots and proofs you provided are correct or not
+1. Our automated tests will tell you if the roots and proofs you provided are correct or not
 
 You are free to use any language to attempt this assignment.
 
-If you are comfortable with javascript, you can use our boilerplate code](js-boilerplate/index.js). You will only need to finish the implementations of the two functions in [tree.js](js-boilerplate/tree.js) to generate the final result.
+If you are comfortable with javascript, you can use our boilerplate [code](js-boilerplate/index.js). You will only need to finish the implementations of the two functions in [tree.js](js-boilerplate/tree.js) to generate the final result.
 
 #### References
 
